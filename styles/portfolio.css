@@ -1,5 +1,13 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/gray-comp.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/./images/gray-comp.jpg);
     background-size: cover;
     color: white;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.card{
+    background: transparent;
+    border-color: black;
 }

@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/gray-comp.jpg);
+    background-size: cover;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.card{
+    background-color: transparent;
+    border: none;
+    margin-top: 2em;
+}
+.card-img{
+    width: 20em;
+    box-sizing: border-box;
+    margin-left: 6em;
+}
+.card-text{
+    font-size: 1.5em;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* .card-img{
+
+} */
+.card-text{
+    font-size: 1em;
+}    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+.card-img{
+    padding-left: 10em;
+    /* width: 22em; */
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+.card-img{
+    margin-left: unset;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+
+} */

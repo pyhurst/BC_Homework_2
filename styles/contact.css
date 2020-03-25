@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/gray-comp.jpg);
+    background-size: cover;
+    color: white;
+}
+form h1{
+    text-align: center;
+    margin: 20px;
+}
+.form-control{
+    margin: 20px 0px;
+    background-color: rgba(243, 230, 207, 0.993);
+}
+.info{
+    margin-top: 20px;
+}
+.submit{
+    margin-top: 20px;
+}
+/* .btn{
+    margin: 0 auto;
+} */

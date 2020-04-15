@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/gray-comp.jpg);
     background-size: cover;
@@ -17,6 +20,16 @@ form h1{
 .submit{
     margin-top: 20px;
 }
+#contactInfo{
+    margin-top: 20px;
+}
+/* .container{
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+footer{
+    height: 50px;
+} */
 /* .btn{
     margin: 0 auto;
 } */

@@ -19,6 +19,18 @@ body {
     border-bottom: 3px solid rgb(19, 17, 17);
     padding-bottom: 2em;
 }
+#liImg{
+    height: 30px;
+    margin-right: 20px;
+}
+#ghImg{
+    height: 30px;
+    margin-left: 20px;
+}
+#iconsDiv{
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 .title{

@@ -8,5 +8,5 @@ module.exports = function(sequelize, DataTypes) {
       details: DataTypes.STRING(1234)
     });
   
-    return Author;
+    return Contact;
 };

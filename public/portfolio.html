@@ -1,96 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel='stylesheet' href='./styles/portfolio.css'>
-    <title>Phil's Portfolio</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">Phil Hurst</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-md-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Portfolio
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="/portfolio">Portfolio</a>
-                    <a class="dropdown-item" href="https://fierce-waters-27012.herokuapp.com/" target="_blank">Shelter Helper</a>
-                    <a class="dropdown-item" href="https://pyhurst.github.io/Project_1_Brew/" target="_blank">To Beer Or Not To Beer</a>
-                    <a class="dropdown-item" href="https://pyhurst.github.io/BC_Homework_6/" target="_blank">Weather Dashboard</a>
-                    <a class="dropdown-item" href="https://pyhurst.github.io/digiClock/" target="_blank">Digital Clock/Counter</a>
-                </div>
-                </li>
-            </ul>
-            </div>
-        </nav>
 
-        <h1>Portfolio</h1>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">To Beer Or Not To Beer</h5>
-                  <p class="card-text">Suggests beer based on alocohol perecentage, color, and bitterness along with 2 great food pairings.</p>
-                  <a href="https://pyhurst.github.io/Project_1_Brew/" class="btn btn-dark" target="_blank">
-                  <img src="/images/to-beer.PNG" alt="To Beer Page" class="page-img"></a>
-                </div>
-              </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='./styles/portfolio.css'>
+  <title>Phil's Portfolio</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Phil Hurst</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-md-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/portfolio">Portfolio</a>
+              <a class="dropdown-item" href="https://fierce-waters-27012.herokuapp.com/" target="_blank">Shelter
+                Helper</a>
+              <a class="dropdown-item" href="https://pyhurst.github.io/Project_1_Brew/" target="_blank">To Beer Or Not
+                To Beer</a>
+              <a class="dropdown-item" href="https://pyhurst.github.io/BC_Homework_6/" target="_blank">Weather
+                Dashboard</a>
+              <a class="dropdown-item" href="https://pyhurst.github.io/digiClock/" target="_blank">Digital
+                Clock/Counter</a>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Weather Dashboard</h5>
-                  <p class="card-text">Current day and 5 day forecast.</p>
-                  <br>
-                  <a href="https://pyhurst.github.io/BC_Homework_6/" class="btn btn-dark" target="_blank">
-                  <img src="/images/weather-page.PNG" alt="Weather Page" class="page-img"></a>
-                </div>
-              </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Portfolio</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <a href="https://pyhurst.github.io/Project_1_Brew/" class="btn btn-dark" target="_blank">
+
+            <div class="card-body">
+
+              <h5 class="card-title">To Beer Or Not To Beer</h5>
+              <p class="card-text">Suggests beer based on alocohol perecentage, color, and bitterness along with 2 great
+                food pairings.</p>
+              <img src="/images/to-beer.PNG" alt="To Beer Page" class="page-img">
+              <p class="card-text gray">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY, MATERIALIZED</p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Digital Clock/Counter</h5>
-                  <p class="card-text">Military and 12-hour clock. Counts the days I've been Javascripting.</p>
-                  <br>
-                  <a href="https://pyhurst.github.io/digiClock/" class="btn btn-dark" target="_blank">
-                  <img src="/images/digi-clock.PNG" alt="Digital Clock Page" class="page-img"></a>
-                </div>
-              </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <a href="https://pyhurst.github.io/Placebook/" class="btn btn-dark" target="_blank">
+
+            <div class="card-body">
+
+              <h5 class="card-title">Placebook</h5>
+              <p class="card-text">Nonindustry specific reservation application to help businesses during COVID-19.</p>
+              <img src="/images/placebk.PNG" alt="Placebook Page" class="page-img">
+              <p class="card-text gray">Technologies Used: REACT, EXPRESS, MONGOOSE, PASSPORT, AXIOS, BCRYPTJS,
+                EXPRESS-SESSION, CSS, BULMA CSS</p>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Shelter Helper</h5>
-                  <p class="card-text">Helps shelter dogs get adopted while helping users find the perfect breed!</p>
-                  <a href="https://fierce-waters-27012.herokuapp.com/" class="btn btn-dark" target="_blank">
-                  <img src="/images/shelter-helper.PNG" alt="Shelter Helper Page" class="page-img"></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          </a>
+        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <a href="https://pyhurst.github.io/BC_Homework_6/" class="btn btn-dark" target="_blank">
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">Current day and 5 day forecast.</p>
+              <br>
+              <img src="/images/weather-page.PNG" alt="Weather Page" class="page-img">
+              <p class="card-text gray">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <a href="https://fierce-waters-27012.herokuapp.com/" class="btn btn-dark" target="_blank">
+
+            <div class="card-body">
+              <h5 class="card-title">Shelter Helper</h5>
+              <p class="card-text">Helps shelter dogs get adopted while helping users find the perfect breed!</p>
+              <img src="/images/shelter-helper.PNG" alt="Shelter Helper Page" class="page-img">
+              <p class="card-text gray">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY, NODE, EXPRESS, HANDLEBARS, UI
+                KIT</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

@@ -10,7 +10,7 @@ h1{
 .card{
     background: transparent;
     border-color: black;
-    margin-top: 1em;
+    margin: .5em 0;
 }
 .page-img{
     width: 100%;
@@ -21,5 +21,5 @@ h1{
     color: rgb(150, 148, 148);
 }
 .card-body{
-    height: 25em;
+    height: 27em;
 }

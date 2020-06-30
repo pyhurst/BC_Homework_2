@@ -34,7 +34,7 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 .title{
-    font-size: 4em;
+    font-size: 4.2rem;
 }
 }
 

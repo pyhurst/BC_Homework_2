@@ -15,16 +15,13 @@ h1{
 .card-img{
     width: 20em;
     box-sizing: border-box;
-    margin-left: 6em;
 }
 .card-text{
     font-size: 1.5em;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-/* .card-img{
 
-} */
 .card-text{
     font-size: 1em;
 }    
@@ -33,8 +30,14 @@ h1{
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 .card-img{
-    padding-left: 10em;
-    /* width: 22em; */
+    padding: 4.5rem;
+    padding-left: 5rem;
+}
+.card-body{
+    margin-top: -3rem;
+}
+#aboutTitle {
+    margin-bottom: -4rem;
 }
 }
 

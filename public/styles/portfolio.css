@@ -47,7 +47,8 @@ h1{
 
 @media (max-width: 400px) {
     .card-body{
-        min-height: 37rem;
+        min-height: 30rem;
+        margin-bottom: 5px;
     }
 }
 

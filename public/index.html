@@ -15,30 +15,291 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./styles/index.css">
-    <title>Phil's Webpage</title>
+    <link rel='stylesheet' href='./styles/style.css'>
+    <title>Phil's Portfolio</title>
 </head>
 
 <body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark invisible" >
+            <a class="navbar-brand" href="/">Phil Hurst</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="/resume">Resume</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#portfolio">Portfolio</a>
+                            <a class="dropdown-item" href="https://www.thesquaresgame.com" target="_blank">Squares
+                                Game</a>
+                            <a class="dropdown-item" href="https://plabk.herokuapp.com" target="_blank">Placebook</a>
+                            <a class="dropdown-item" href="https://fierce-waters-27012.herokuapp.com/"
+                                target="_blank">Shelter
+                                Helper</a>
+                            <a class="dropdown-item" href="https://pyhurst.github.io/Project_1_Brew/" target="_blank">To
+                                Beer Or Not
+                                To Beer</a>
+                            <a class="dropdown-item" href="https://github.com/pyhurst/Employee-Tracker"
+                                target="_blank">Employee
+                                Management System</a>
+                            <a class="dropdown-item" href="https://pyhurst.github.io/BC_Homework_6/"
+                                target="_blank">Weather
+                                Dashboard</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-1 title">Welcome! I am Phil Hurst, your go to Full Stack Developer!</h1>
-            <p class="lead">Create your idea into a responsive and innovative web application.</p>
-            <!-- <hr class="my-4"> -->
-            <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <a class="btn btn-dark" href="./about.html" role="button">About</a>
-            <a class="btn btn-dark" href="./contact.html" role="button">Contact</a>
-            <a class="btn btn-dark" href="./portfolio.html" role="button">Portfolio</a>
-            <div id='iconsDiv'>
+        <div class="jumbotron home">
+            <h1 class="display-1">Welcome!</h1>
+            <div class="scroll-title">
+                <h1 class="display-1 first"> I'm Phil Hurst,</h1>
+                <h1 class="display-1 title">Full Stack Developer!</h1>
+                <p class="lead title-statement">Create your idea into a responsive and innovative web application.</p>
+                <!-- <hr class="my-4"> -->
+                <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+                <a class="btn btn-dark home_buttons" href="#about" role="button">About</a>
+                <a class="btn btn-dark home_buttons" href="#portfolio" role="button">Portfolio</a>
+                <a class="btn btn-dark home_buttons" href="#contact" role="button">Contact</a>
+            </div>
+            <div class='icons-div'>
                 <a href='https://www.linkedin.com/in/phil-hurst-b293111a7/' target="_blank"><i
-                    class='bx bxl-linkedin'></i></a>
-                <a href='https://github.com/pyhurst' target="_blank"><i class='bx bxl-github'></i></a>
+                        class='bx bxl-linkedin social-icon'></i></a>
+                <a href='https://github.com/pyhurst' target="_blank"><i class='bx bxl-github social-icon'></i></a>
             </div>
         </div>
 
+        <div class="about-div" id="about">
+            <h1 id="about-title">About me</h1>
+            <div class="card mb-3 about-body">
+                <div class="row no-gutters">
+                    <div class="col-sm-6" id="myImg">
+                        <img src="./images/IMG_2237.PNG" class="card-img about-img" alt="...">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">About Me</h5> -->
+                            <p class="card-text about-main"><span id='h-span'>H</span>ello! I was born and raised in the suburbs of Chicago. I
+                                had a knack
+                                for numbers at an
+                                early age, which led me into the field of Finance at the Illinois State University.
+                                After graduation, I
+                                worked as a stock broker and then specialized in day trading the Euro for 6 years. I
+                                loved what I did, but
+                                realized that I did not want to trade the financial markets for the rest of my life so I
+                                applied for the
+                                Northwestern University Coding Bootcamp to become a full stack developer.
+                            </p>
+                            <p class="card-text about-main">
+                                <span id='h-span'>D</span>uring the pandemic, I have taken many more classes on Udemy and have receieved certificates in Advanced Javascript, React, Redux, and UI/UX design.
+                            </p>
+                            <p class="card-text about-quote"><small class="text-muted">"Whether you think you can, or
+                                    you think you
+                                    can't--you're
+                                    right." - Henry Ford</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-div" id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="row portfolio-body">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="hhttps://sb-sqaures.herokuapp.com/" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">Sqaures</h5>
+                                <p class="card-text">Inspired by Super Bowl Sqaures, we created a completely free
+                                    application where friends and family can host their game of Sqaures.</p>
+                                <img src="./images/sqaures.png" alt="Placebook Page" class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: REACT, NODE, EXPRESS, MONGOOSE,
+                                    PASSPORT (oAuth), AXIOS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="http://plabk.herokuapp.com" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">Placebook</h5>
+                                <p class="card-text">Non-industry specific reservation application to help businesses
+                                    during and after
+                                    COVID-19. A company can create a dynamic schedule with capacity limits per 30
+                                    minutes or hour while
+                                    allowing users to reserve one spot per business per day.</p>
+                                <img src="./images/placebk.png" alt="Placebook Page" class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: REACT, NODE, EXPRESS, MONGOOSE,
+                                    PASSPORT, AXIOS, BCRYPTJS,
+                                    EXPRESS-SESSION, CSS, BULMA CSS, REACTSTRAP CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="https://fierce-waters-27012.herokuapp.com/" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">Shelter Helper</h5>
+                                <p class="card-text">Suggests a dog breed to the user based on his or her lifestyle and
+                                    locates adoptable
+                                    dogs of that breed in the user's city. Also, tracks this data for shelters so they
+                                    know which breeds are
+                                    popular in certain areas.</p>
+                                <img src="./images/shelter-helper.PNG" alt="Shelter Helper Page"
+                                    class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY,
+                                    NODE, EXPRESS, HANDLEBARS, UI
+                                    KIT CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="https://pyhurst.github.io/Project_1_Brew/" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">To Beer Or Not To Beer</h5>
+                                <p class="card-text">Suggests a Brewdog IPA beer based on alcohol percentage, color
+                                    shade, and bitterness
+                                    along with 2 great
+                                    food pairings.</p>
+                                <br>
+                                <img src="./images/to-beer.PNG" alt="To Beer Page" class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY,
+                                    MATERIALIZED CSS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="https://github.com/pyhurst/Employee-Tracker" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">Employee Management System</h5>
+                                <p class="card-text">A CLI application using Node.js that allows a company to view, add,
+                                    delete, or update
+                                    their employee, department, and roles data. Also an option to view total utilized
+                                    budget by department.
+                                </p>
+                                <img src="./images/em-tracker-view-employees.png" alt="View All Employees CLI"
+                                    class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: NODE, MYSQL, INQUIRER,
+                                    CONSOLE.TABLE</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <a href="https://pyhurst.github.io/BC_Homework_6/" class="btn btn-dark" target="_blank">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <p class="card-text">Look up a city to find the current weather forcast and 5 day
+                                    forcast. Saves previous
+                                    cities searched inside browser internal storage.</p>
+                                <img src="./images/weather-page.PNG" alt="Weather Page" class="portfolio-img">
+                                <p class="card-text gray card-tech">Technologies Used: HTML, CSS, JAVASCRIPT, JQUERY,
+                                    BOOTSTRAP CSS, INTERNAL
+                                    STORAGE</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-div" id="contact">
+            <form id="contact-form">
+                <h1 id="contact-title">Contact Form</h1>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control clear" id="first-name-input" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control clear" id="last-name-input" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control clear" id="email-input" placeholder="Email">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control clear" id="phone-number-input"
+                            placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- <label for="exampleFormControlSelect1">Example select</label> -->
+                        <select class="form-control" id="category-dropdown">
+                            <option value="project">Project</option>
+                            <option value="question">Question</option>
+                            <option value="concern">Concern</option>
+                            <option value="compliment">Compliment :)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col">
+                        <label for="details-input">Details:</label>
+                        <textarea class="form-control clear" id="details-input" rows="6"></textarea>
+                    </div>
+                </div>
+                <div class='submit'>
+                    <button type="button" class="btn btn-success" id="contact-submit">Submit!</button>
+                </div>
+                <div id="submit-message">
+
+                </div>
+            </form>
+        </div>
     </div>
 
-    <script src="./scripts/index.js"></script>
+    <footer class="footer">
+        <div id='contactInfo'>
+            <p>2019<i class='bx bx-copyright'></i> Phil Hurst made with <i class='bx bx-heart' ></i></p>
+            <p><i class='bx bx-mail-send' > Youngphil9@gmail.com</i></p>
+            <p><i class='bx bx-phone-outgoing' > (630)-333-5497</i></p>
+        </div>
+        <div class='icons-footer-div'>
+            <a href='https://www.linkedin.com/in/phil-hurst-b293111a7/' target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href='https://github.com/pyhurst' target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src='./js/contact.js'></script>
+    <script src='./js/main.js'></script>
 </body>
 
 </html>

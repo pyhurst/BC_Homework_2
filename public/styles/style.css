@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../images/gray-comp.jpg) center fixed;
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+}
+
+.card-img {
+    width: 200px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card-body {
+    background-color: transparent;
+    height: 24rem;
+}
+
+.about-main {
+    font-size: 1.5rem;
+}
+
+.about-quote {
+    font-size: 1.5rem;
+}
+
+#myImg {
+    padding-top: 2rem;
+}
+
+.about-body {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    height: calc(100vh - 5rem);
+}
+
+.about-div {
+    padding-top: 5rem;
+}
+
+.portfolio-img {
+    width: 250px;
+}
+
+.home {
+    height: calc(100vh - 3rem);
+}
+
+.icons-div {
+    margin-top: 2rem;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    width: 100vh;
+}
+
+.bx {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+#h-span {
+    font-size: 3rem;
+}
+
+.portfolio-body {
+    margin-top: 2rem;
+}
+
+.portfolio-div {
+    padding-top: 5rem;
+}
+
+.contact-div {
+    height: calc(100vh - 5rem);
+    padding-top: 4rem;
+}
+
+#contact-title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+option {
+    color: black;
+}
+
+.icons-footer-div {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .card-img {
+        width: 9rem;
+    }
+}
